@@ -1,0 +1,5 @@
+# echo 'cocoapi' >> .gitignore
+/env/*
+.vscode/*
+/logs/*
+/src/*

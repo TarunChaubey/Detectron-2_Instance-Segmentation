@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Image Uploader</title>
+  </head>
+  <body>
+    <h1>Upload an Image</h1>
+    <form action="{{ url_for('predict') }}" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*">
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>

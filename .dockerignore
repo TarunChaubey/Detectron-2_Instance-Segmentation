@@ -1,0 +1,8 @@
+env/
+eval/
+logs/
+OutputSeg/
+uploadImages/
+NoteBook/
+APIuploadeImages/
+APIPredictedImages/
